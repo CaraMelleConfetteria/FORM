@@ -26,32 +26,37 @@
         .container \{\
             background: white;\
             max-width: 400px;\
-            padding: 30px;\
+            padding: 20px;\
             border-radius: 15px;\
             border: none;\
+            display: flex;\
+            flex-direction: column;\
+            align-items: center;\
+            justify-content: center;\
         \}\
         h2 \{\
-            margin-bottom: 2px; /* Riduce ancora di pi\'f9 lo spazio tra titolo e testo */\
-            margin-bottom: 5px; /* Riduce ulteriormente l'interlinea */\
-            margin-bottom: 10px; /* Riduce l'interlinea della met\'e0 */\
+            margin: 5px 0;\
             color: orange;\
+            font-size: 24px;\
         \}\
         p \{\
             color: #555;\
+            font-size: 16px;\
+            margin: 5px 0;\
         \}\
         #qr-container \{\
-            margin-top: 20px;\
+            margin-top: 10px;\
         \}\
         #qr-code \{\
-            width: 100px;\
-            height: 100px;\
+            width: 120px;\
+            height: 120px;\
         \}\
     </style>\
 </head>\
 <body>\
     <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>\
     <div class="container">\
-        <dotlottie-player src="https://lottie.host/616ac082-d2bc-4f55-86b8-18c072f97d9e/8q46aWOEME.lottie" background="transparent" speed="1" style="width: 300px; height: 300px; margin: 0 auto;" loop autoplay></dotlottie-player>\
+        <dotlottie-player src="https://lottie.host/616ac082-d2bc-4f55-86b8-18c072f97d9e/8q46aWOEME.lottie" background="transparent" speed="1" style="width: 250px; height: 250px;" loop autoplay></dotlottie-player>\
         <h2>Golosone!</h2>\
         <p>Scansiona il QR Code ed unisciti al gruppo WhatsApp</p>\
         \
